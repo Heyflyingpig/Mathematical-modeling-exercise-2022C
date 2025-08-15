@@ -164,7 +164,7 @@ pls.fit(X_train_pls, y_train_pls)
 # 评估模型性能
 y_pred_pls = pls.predict(X_train_pls)
 r2 = r2_score(y_train_pls, y_pred_pls)
-print(f"PLS模型在训练集上的 R² score: {r2:.4f}")
+print(f"PLS模型在训练集上的 R^2 score: {r2:.4f}")
 
 # --- 应用模型进行预测 ---
 # 选取一个风化样本作为例子，如 "02"
